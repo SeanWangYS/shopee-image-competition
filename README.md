@@ -20,17 +20,16 @@ July 4, 2020 - Final submission deadline.<br>
 Accuracy score between predictions and ground truth of each test sample.
 
 ## Method
-1. Label Smoothing<br>
+**1. Label Smoothing**<br>
 After checking the confusion matrix from the baseline model, we figure out that it is vague between some categories. Some images are hard to assign to a specific category, 
 even if check it by ourown. That's why we use "lebel smoothing" trick to improve the model accuracy on test set.<br>
 <img src="pic/confusion_matrix2.jpg"><br>
 
-2. Data Augmentation
+**2. Data Augmentation**<br>
 To avoid high varience problem, we impelemented data augmentation. We also made special functions to randomly twist or adding balck block in images. 
 
-3. One-Cycle Policy / Cyclic Learning Rate
-Rather than training model with thousands iteration, Using cyclic learning rate could get the same baseline accuracy with smaller epochs. It's also help us get ride out of saddel point while model training. You can check [here](https://towardsdatascience.com/finding-good-learning-rate-and-the-one-cycle-policy-7159fe1db5d6) to get intuition sense about one-cycle policy.<br>
-We wrote a new code to control learning rate on each iterator during training(as the picture below), and It made us get significant imporve on accuracy of test set.<br>
+**3. One-Cycle Policy / Cyclic Learning Rate**<br>
+Rather than training model with thousands iteration, Using cyclic learning rate could get the same baseline accuracy with smaller epochs. It's also help us get ride out of saddel point while model training. You can check [here](https://towardsdatascience.com/finding-good-learning-rate-and-the-one-cycle-policy-7159fe1db5d6) to get intuition sense about one-cycle policy.We wrote a new code to control learning rate on each iterator during training(as the picture below), and It made us get significant imporve on accuracy of test set.<br>
 <img src="pic/cycling.jpg"><br>
 
 ## Model
