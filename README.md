@@ -24,6 +24,7 @@ Accuracy score between predictions and ground truth of each test sample.
 After checking the confusion matrix from the baseline model, we figure out that it is vague between some categories. Some images are hard to assign to a specific category, 
 even if check it by ourown. That's why we use "lebel smoothing" trick to improve the model accuracy on test set.<br>
 <img src="pic/confusion_matrix2.jpg"><br>
+![](./pic/confusion_matrix2.jpg =250x)
 
 **2. Data Augmentation**<br>
 To avoid high varience problem and cope with data imbalance problem, we impelemented data augmentation. We also made special functions to randomly twist or adding balck block in images.<br>
