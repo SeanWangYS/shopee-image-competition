@@ -2,7 +2,7 @@
 In this competition, I team up with [yurayli](https://github.com/yurayli), He is my best teammate and mentor in data science. If you have any interest with him, you can access his github(https://github.com/yurayli)
 ### Ranking: 7/646 (Top2%)
 ## Leadboard 
-<img src="pic/leadboard2.jpg" alt="drawing" width="200"/>
+<img src="pic/leadboard2.jpg" alt="drawing" width="800"/>
 
 
 ## Task
