@@ -2,7 +2,7 @@
 In this competition, I team up with [yurayli](https://github.com/yurayli), He is my best teammate and mentor in data science. If you have any interest with him, you can access his github(https://github.com/yurayli)
 ### Ranking: 7/646 (Top2%)
 ## Leadboard 
-<img src="pic/leadboard2.jpg">
+<img src="pic/leadboard2.jpg", width=200>
 
 ## Task
 In this competition, a multiple image classification model needs to be built. There are **~100k images** within **42 different categories**, including essential medical tools like masks, protective suits and thermometers, home & living products like air-conditioner and fashion products like T-shirts, rings, etc. For the data security purpose the category names will be desensitized. The evaluation metrics is top-1 accuracy.
@@ -24,7 +24,6 @@ Accuracy score between predictions and ground truth of each test sample.
 After checking the confusion matrix from the baseline model, we figure out that it is vague between some categories. Some images are hard to assign to a specific category, 
 even if check it by ourown. That's why we use "lebel smoothing" trick to improve the model accuracy on test set.<br>
 <img src="pic/confusion_matrix2.jpg"><br>
-![](./pic/confusion_matrix2.jpg =250x)
 
 **2. Data Augmentation**<br>
 To avoid high varience problem and cope with data imbalance problem, we impelemented data augmentation. We also made special functions to randomly twist or adding balck block in images.<br>
