@@ -33,4 +33,4 @@ Rather than training model with thousands iteration, Using cyclic learning rate 
 <img src="pic/cycling.jpg"><br>
 
 ## Model
-We use pretrained-model ResNet and EfficientNet to build several predictive model, and take ensumble mothod on whole predictions from these models to boost final accuracy.<br>
+We use pretrained-model ResNet and EfficientNet to build several predictive models, and take ensumble mothod on whole predictions to boost final accuracy.<br>
